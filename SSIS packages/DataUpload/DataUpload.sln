@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DataUpload", "DataUpload\DataUpload.dtproj", "{8C9146DC-68E3-4BCC-839F-F6D4BA45BDB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C9146DC-68E3-4BCC-839F-F6D4BA45BDB8}.Development|Default.ActiveCfg = Development
+		{8C9146DC-68E3-4BCC-839F-F6D4BA45BDB8}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EE5DD0F-D586-4416-8DA9-F84054BE8FEF}
+	EndGlobalSection
+EndGlobal
