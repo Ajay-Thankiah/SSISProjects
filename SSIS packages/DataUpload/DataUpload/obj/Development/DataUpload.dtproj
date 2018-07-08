@@ -26,11 +26,12 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">AJAY</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlt5GeNGP60eViP7tOYSANgAAAAACAAAAAAAQZgAAAAEAACAAAAA7dDyAQIrS0AkQfaXGUUFZX7MuiFCYj7HYnDIZNms+tgAAAAAOgAAAAAIAACAAAADw9mW9k0ZZF6x/KRxNmHrx2iHoF01cWqeOqc9bWd9lBpAAAABGoFEcEIQbwBdeNKeurIgTgsqzqcijloQlh+9G50dsi/BjcOlVAnbSBeTIZqGwl3G51viPZNtgJ1sPpRp0jx16elIwnqtBgJexTa/WONe0d2IRU+uCiCvGzA0GGStiZbprtQUg2AJsorP8/NxP0Fe2mACY+Cfj5qnJW5TuJm2Uu+AyIMbcCFy1VimLtC+Y+lBAAAAAr7r4hHTCU0dEZzlHxhdRGtnFgOqx/YSf3r5r+C3Vmowu+oSgIhqB49fiXblw2U5q4VqCxoiQKpULV7VVNgyjfA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlt5GeNGP60eViP7tOYSANgAAAAACAAAAAAAQZgAAAAEAACAAAACZ0B6yRsjIkDk9RLi2tl3FjNtc286Cpc3pfb2SJDZljwAAAAAOgAAAAAIAACAAAACSO80mg8Lmr5TvWyK2fqMVhhkoWQ511TSSoKxN4u+9uZAAAAC4t4uwS/qtASPU1uzhX74QXFKrV7wj7RpItlfng+yavrdtXKvaOjHv0cnoQ47un7SfzjGlrvyEwjn+LvfVH8EVkUFXDPBqSXYtaGFQAVDSP9jrC3ruYRtfisb8fTwFMRAuUzCbzO/UW3M4GR6GJRX//EHhD7AxSQoIiFYFDUgIk+9mT1W8Sk7Jm0yv6cFTcWBAAAAAcTojFMVaEzs1eoOsqNJVAYN95fzy9z/Gkcl2Qx3Ra+zqnEDAvvrrL3EdXBAtMBQoTkfWX8IQTYx+12l1oCNi5Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="CreatePopulateTablesFromExcelSheets.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="CreateTablesFromReportCardAssessment.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -64,6 +65,113 @@
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Value">Data Source=131.156.33.147;User ID=Census;Initial Catalog=60by25Development;Persist Security Info=True;Application Name=SSIS-CreatePopulateTablesFromExcelSheets-{AD2B27E8-333A-45EC-B604-883A1BE14CA4}131.156.33.147.60by25Development.Census;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.60By25Development.InitialCatalog">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">60by25Development</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.60By25Development.Password">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">1</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.60By25Development.RetainSameConnection">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.60By25Development.ServerName">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">131.156.33.147</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.60By25Development.UserName">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Census</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+              </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="CreateTablesFromReportCardAssessment.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{108D47DE-F4E4-47F9-BA81-03F1CD1F0093}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">CreateTablesFromReportCardAssessment</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{8F6DC34D-B84B-48E7-B7C3-5BD4CEBA3E3E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="CM.60By25Development.ConnectionString">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=131.156.33.147;User ID=Census;Initial Catalog=60by25Development;Application Name=SSIS-Package1-{474EEEC6-6E40-4468-A693-F0BF1DBA2A0E}131.156.33.147.60by25Development.Census;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
