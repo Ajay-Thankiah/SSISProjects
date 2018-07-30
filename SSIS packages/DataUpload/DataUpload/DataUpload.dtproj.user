@@ -4,6 +4,8 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
+        <ServerName>131.156.33.147</ServerName>
+        <PathOnServer>/SSISDB/GeneralDataUploadOperations/DataUpload</PathOnServer>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>

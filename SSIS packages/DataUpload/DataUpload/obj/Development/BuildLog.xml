@@ -2,29 +2,24 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>DataUpload</Name>
-    <LastWriteTime>2018-07-10T18:53:53.3927542Z</LastWriteTime>
-    <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    <LastWriteTime>2018-07-30T17:39:42.4693846Z</LastWriteTime>
+    <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>CreateTablesFromReportCardAssessment.dtsx</Name>
-      <LastWriteTime>2018-07-09T19:53:45.7732965Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>AppendToOrCreatePopulateTablesFromExcelSheets.dtsx</Name>
-      <LastWriteTime>2018-07-10T00:20:44.8721635Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+      <Name>RepopulateOrCreateTablesFromExcelSheets.dtsx</Name>
+      <LastWriteTime>2018-07-30T17:41:48.0814993Z</LastWriteTime>
+      <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>ReplaceOrCreateTablesFromExcelSheet.dtsx</Name>
-      <LastWriteTime>2018-07-10T20:31:15.4932835Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+      <LastWriteTime>2018-07-30T17:40:31.4530706Z</LastWriteTime>
+      <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
-      <Name>CreateOrRepopulateTablesFromExcelSheets.dtsx</Name>
-      <LastWriteTime>2018-07-10T18:53:53.2881187Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+      <Name>AppendOrCreateTablesFromExcelSheets.dtsx</Name>
+      <LastWriteTime>2018-07-30T17:56:22.4736877Z</LastWriteTime>
+      <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
 </BuildLog>
