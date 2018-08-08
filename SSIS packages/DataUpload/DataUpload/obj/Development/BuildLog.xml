@@ -2,23 +2,23 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>DataUpload</Name>
-    <LastWriteTime>2018-07-30T17:39:42.4693846Z</LastWriteTime>
+    <LastWriteTime>2018-08-08T00:29:30.4726036Z</LastWriteTime>
     <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>RepopulateOrCreateTablesFromExcelSheets.dtsx</Name>
-      <LastWriteTime>2018-07-30T22:22:44.8070092Z</LastWriteTime>
+      <LastWriteTime>2018-08-08T00:45:12.9866491Z</LastWriteTime>
       <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>ReplaceOrCreateTablesFromExcelSheet.dtsx</Name>
-      <LastWriteTime>2018-07-30T19:24:05.1035488Z</LastWriteTime>
+      <LastWriteTime>2018-08-08T00:42:20.9419345Z</LastWriteTime>
       <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>AppendOrCreateTablesFromExcelSheets.dtsx</Name>
-      <LastWriteTime>2018-07-30T17:56:22.4736877Z</LastWriteTime>
+      <LastWriteTime>2018-08-08T00:35:38.9863225Z</LastWriteTime>
       <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
