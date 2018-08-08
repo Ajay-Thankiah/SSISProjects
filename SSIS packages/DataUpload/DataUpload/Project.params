@@ -16,7 +16,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:\CSCI course docs\CGS\Archive</SSIS:Property>
+        SSIS:Name="Value">C:\Users\Y13SJT1\Desktop\SSIS Folder\Sindi\Archive</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -79,7 +79,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:\CSCI course docs\CGS\ErrorLog</SSIS:Property>
+        SSIS:Name="Value">C:\Users\Y13SJT1\Desktop\SSIS Folder\Sindi\ErrorLog</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -100,7 +100,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:\CSCI course docs\CGS\Log</SSIS:Property>
+        SSIS:Name="Value">C:\Users\Y13SJT1\Desktop\SSIS Folder\Sindi\Log</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -205,7 +205,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:\CSCI course docs\CGS\DummyFolderForSSIS</SSIS:Property>
+        SSIS:Name="Value">C:\Users\Y13SJT1\Desktop\SSIS Folder\Sindi\AppendOrCreate</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -226,7 +226,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:\CSCI course docs\CGS\DummyFolderForSSIS</SSIS:Property>
+        SSIS:Name="Value">C:\Users\Y13SJT1\Desktop\SSIS Folder\Sindi\ReplaceOrCreate</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -247,7 +247,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:\CSCI course docs\CGS\DummyFolderForSSIS</SSIS:Property>
+        SSIS:Name="Value">C:\Users\Y13SJT1\Desktop\SSIS Folder\Sindi\RepopulateOrCreate</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -310,7 +310,7 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">asaraswathyperumal1@niu.edu</SSIS:Property>
+        SSIS:Name="Value">taylor@niu.edu, asaraswathyperumal1@niu.edu, hdonapati1@niu.edu, kthakkar3@niu.edu, sshingade1@niu.edu, jflores13@niu.edu</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>

@@ -43,10 +43,10 @@
                 <SSIS:Property SSIS:Name="Name">RepopulateOrCreateTablesFromExcelSheets</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">50</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">57</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{6DCB5097-BC3F-4018-B303-A90D4C27773A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{425DD7FB-2C04-438C-BFCA-23C1E37939A4}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -135,10 +135,10 @@
                 <SSIS:Property SSIS:Name="Name">ReplaceOrCreateTablesFromExcelSheet</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">36</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">40</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{390B8201-5A8D-4371-8546-1F6EA1928708}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{7C22228A-37C2-4583-A11A-EE40207C131A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -227,10 +227,10 @@
                 <SSIS:Property SSIS:Name="Name">AppendOrCreateTablesFromExcelSheets</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">45</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">49</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{5AB75B79-EC6E-4AD1-A931-4868BF0E0F17}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{805399DE-A823-4E04-A5DA-ACDE80975576}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
